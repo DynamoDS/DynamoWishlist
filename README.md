@@ -1,17 +1,16 @@
-![Image](https://github.com/DynamoDS/DynamoWishlist/blob/master/resources/images/dynamo_logo_light.png)
-Dynamo is a visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
-
 # DynamoWishlist
 
-This repository is to collect all of the **Wishlist** items for Dynamo Core. Please submit them under the [issues tab](https://github.com/DynamoDS/DynamoWishlist/issues) and they will form part of the discussion around Dynamo's future state and where it's headed! 
+![Image](resources/images/dynamo_logo_light.png)
+[Dynamo](https://github.com/DynamoDS/Dynamo) is a visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
 
-Please feel free to submit as many as you like and the more information you can submit with them the better!
+This repository is to collect all of the **Wishlist** items for Dynamo Core. Please submit them under the [issues tab](https://github.com/DynamoDS/DynamoWishlist/issues) and they will form part of the discussion around Dynamo's future state and where it's headed!
 
-## Get Dynamo ##
+Please feel free to submit as many as you like and the more information you can submit with them the better! You can track the status the issues in the [DynamoWishlist Project board](https://github.com/orgs/DynamoDS/projects/3)
 
-Looking to learn or download Dynamo?  Check out [dynamobim.org](http://dynamobim.org/learn/)
+## Get Dynamo
 
-## License ##
+Looking to learn or download Dynamo? Check out [dynamobim.org](https://dynamobim.org/learn/)
 
-Dynamo is licensed under the Apache License. Dynamo also uses a number of third party libraries, some with different licenses. You can find more information [here](LICENSE.txt).
+## License
 
+Dynamo is licensed under the Apache License. Dynamo also uses a number of third party libraries, some with different licenses. You can find more information [here](https://github.com/DynamoDS/Dynamo/blob/master/LICENSE.txt)
