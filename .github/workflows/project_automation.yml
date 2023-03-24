@@ -47,12 +47,26 @@ jobs:
           resource_node_id: ${{ github.event.issue.node_id }}
           status_value: Backlog
 
+  issue_labeled_as_tracked:
+    name: issue labeled as Tracked
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'Tracked'
+    steps:
+      - name: Move issue to todo
+        uses: leonsteinhaeuser/project-beta-automations@v2.0.0
+        with:
+          gh_token: ${{ env.gh_token }}
+          organization: ${{ env.gh_organization }}
+          project_id: ${{ env.project_id }}
+          resource_node_id: ${{ github.event.issue.node_id }}
+          status_value: Todo
+
   issue_assigned:
     name: issue assigned
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && github.event.action == 'assigned'
     steps:
-      - name: Move issue to triage
+      - name: Move issue to todo
         uses: leonsteinhaeuser/project-beta-automations@v2.0.0
         with:
           gh_token: ${{ env.gh_token }}
