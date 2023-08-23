@@ -1,6 +1,5 @@
 # This workflow automates issues added to the repo.
-# It will add new issues to the project
-# DynamoWishlist - https://github.com/orgs/DynamoDS/projects/3
+# It will add new issues to the project DynamoWishlist - https://github.com/orgs/DynamoDS/projects/3
 # and moves issues through the appropriate columns
 name: Project automation
 
@@ -24,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && (github.event.action == 'opened' || github.event.action == 'reopened')
     steps:
-      - name: Move issue to triage
+      - name: Move issue to Triage
         uses: leonsteinhaeuser/project-beta-automations@v2.0.0
         with:
           gh_token: ${{ env.gh_token }}
@@ -38,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && github.event.action == 'labeled'
     steps:
-      - name: Move issue to triage
+      - name: Move issue to Backlog
         uses: leonsteinhaeuser/project-beta-automations@v2.0.0
         with:
           gh_token: ${{ env.gh_token }}
@@ -52,7 +51,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && github.event.action == 'labeled' && github.event.label.name == 'Tracked'
     steps:
-      - name: Move issue to todo
+      - name: Move issue to Todo
         uses: leonsteinhaeuser/project-beta-automations@v2.0.0
         with:
           gh_token: ${{ env.gh_token }}
@@ -66,14 +65,14 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'issues' && github.event.action == 'assigned'
     steps:
-      - name: Move issue to todo
+      - name: Move issue to In Progress
         uses: leonsteinhaeuser/project-beta-automations@v2.0.0
         with:
           gh_token: ${{ env.gh_token }}
           organization: ${{ env.gh_organization }}
           project_id: ${{ env.project_id }}
           resource_node_id: ${{ github.event.issue.node_id }}
-          status_value: Todo
+          status_value: In Progress
 
   issue_closed:
     name: issue closed
