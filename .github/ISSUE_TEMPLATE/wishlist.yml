@@ -1,0 +1,40 @@
+name: Wishlist
+description: File a new improvement request
+title: ':feat: <title>'
+labels: [needs triage]
+projects: ["DynamoDS/3"]
+assignees:
+  - avidit
+body:
+  - type: textarea
+    attributes:
+      label: Dynamo Version
+      description: |
+        Which version of Dynamo are you using?
+        Go to **Dynamo > About** if you are not sure.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Host
+      description: Which host(s) are you using? (e.g Revit, Civil3D).
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: What improvement/feature would you like to see in Dynamo?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How would you see this improvement/feature working?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Please provide any sketch/mock-up or video of your requested improvement/feature
+      description: |
+        Links? References?
+        _Tip: To attach screenshots/gifs or other files, click this area to highlight it and then drag files into it._
+    validations:
+      required: false
