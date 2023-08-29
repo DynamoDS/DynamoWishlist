@@ -2,8 +2,8 @@ name: Issues workflow
 # DynamoWishlist project https://github.com/orgs/DynamoDS/projects/3
 # Built-in workflow https://github.com/orgs/DynamoDS/projects/3/workflows/11388102
 
-# The built in workflow
-#   - automatically adds any new issues to the project
+# The built-in workflow
+#   - adds any new issues to the project
 #   - sets status as 'Triage' when an item is added to the project
 #   - sets status as 'Backlog' when an item is reopened
 #   - sets status as 'Done' when an item is closed
@@ -18,7 +18,7 @@ on:
       - labeled
 
 env:
-  gh_token: ${{ secrets.DYNAMO_WISHLIST_PROJECT_TOKEN }}
+  gh_token: ${{ secrets.DYNAMO_ISSUES_TOKEN }}
   gh_organization: DynamoDS
   project_id: 3
 

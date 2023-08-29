@@ -1,6 +1,7 @@
 # DynamoWishlist
 
 ![Image](resources/images/dynamo_logo_light.png)
+
 [Dynamo](https://github.com/DynamoDS/Dynamo) is a visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
 
 This repository is to collect all of the **Wishlist** items for Dynamo Core. Please submit them under the [issues tab](https://github.com/DynamoDS/DynamoWishlist/issues) and they will form part of the discussion around Dynamo's future state and where it's headed!

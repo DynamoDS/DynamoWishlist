@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Dynamo Issues
-    url: https://github.com/DynamoDS/Dynamo/issues/new
-    about: Report a bug with Dynamo
+    url: https://github.com/DynamoDS/Dynamo/issues
+    about: File an issue with Dynamo
   - name: Dynamo Revit Issues
-    url: https://github.com/DynamoDS/DynamoRevit/issues/new
-    about: Report a bug with DynamoRevit
+    url: https://github.com/DynamoDS/DynamoRevit/issues
+    about: File an issue with DynamoRevit
   - name: Dynamo Forum
     url: https://forum.dynamobim.com/
     about: Discussions? Questions? Ideas? Something to share?
