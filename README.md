@@ -1,12 +1,14 @@
 # DynamoWishlist
 
+![GitHub issues](https://img.shields.io/github/issues/DynamoDS/DynamoWishlist) ![GitHub closed issues](https://img.shields.io/github/issues-closed/DynamoDS/DynamoWishlist)
+
 ![Image](resources/images/dynamo_logo_light.png)
 
 [Dynamo](https://github.com/DynamoDS/Dynamo) is a visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
 
 This repository is to collect all of the **Wishlist** items for Dynamo Core. Please submit them under the [issues tab](https://github.com/DynamoDS/DynamoWishlist/issues) and they will form part of the discussion around Dynamo's future state and where it's headed!
 
-Please feel free to submit as many as you like and the more information you can submit with them the better! You can track the status the issues in the [DynamoWishlist Project board](https://github.com/orgs/DynamoDS/projects/3)
+Please feel free to submit as many as you like and the more information you can submit with them the better! You can track the status of the issues in the [DynamoWishlist Project board](https://github.com/orgs/DynamoDS/projects/3)
 
 ## Get Dynamo
 

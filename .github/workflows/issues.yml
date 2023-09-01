@@ -9,8 +9,8 @@ name: Issues workflow
 #   - sets status as 'Done' when an item is closed
 
 # This workflow complements the built in workflow and
-#   - moves labeled issues labeled to 'Backlog' column the project
-#   - moves issues labeled as 'tracked' to 'Todo' column the project
+#   - moves any labeled issues to 'Backlog' column in the project
+#   - moves issues labeled as 'tracked' to 'Todo' column in the project
 
 on:
   issues:
@@ -23,10 +23,10 @@ env:
   project_id: 3
 
 jobs:
-  issue_labeled:
-    name: issue labeled
+  issue_labeled_any:
+    name: Move any labeled issue
     runs-on: ubuntu-latest
-    if: github.event_name == 'issues' && github.event.action == 'labeled'
+    if: github.event.label.name != 'Tracked'
     steps:
       - name: Move issue to Backlog
         uses: leonsteinhaeuser/project-beta-automations@v2.0.0
@@ -36,6 +36,10 @@ jobs:
           project_id: ${{ env.project_id }}
           resource_node_id: ${{ github.event.issue.node_id }}
           status_value: Backlog
+  issue_labeled_as_tracked:
+    name: Move issue labeled as 'Tracked'
+    runs-on: ubuntu-latest
+    steps:
       - name: Move issue to Todo
         if: github.event.label.name == 'Tracked'
         uses: leonsteinhaeuser/project-beta-automations@v2.1.0
