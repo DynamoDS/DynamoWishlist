@@ -1,6 +1,8 @@
 # DynamoWishlist
 
-![GitHub issues](https://img.shields.io/github/issues/DynamoDS/DynamoWishlist) ![GitHub closed issues](https://img.shields.io/github/issues-closed/DynamoDS/DynamoWishlist)
+[![GitHub issues](https://img.shields.io/github/issues/DynamoDS/DynamoWishlist)](https://github.com/DynamoDS/DynamoWishlist/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) [![GitHub closed issues](https://img.shields.io/github/issues-closed/DynamoDS/DynamoWishlist)](https://github.com/DynamoDS/DynamoWishlist/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed)
+
+[![GitHub New Issue](https://img.shields.io/badge/Submit%20New%20Request-228537ff)](https://github.com/DynamoDS/DynamoWishlist/issues/new/choose)
 
 ![Image](resources/images/dynamo_logo_light.png)
 
