@@ -1,8 +1,8 @@
-name: Wishlist
-description: File a new improvement request
+name: Dynamo Wishlist
+description: File an improvement request
 title: ':feat: <title>'
 labels: [needs triage]
-projects: ["DynamoDS/3"]
+projects: [DynamoDS/3]
 assignees:
   - avidit
 body:

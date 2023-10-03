@@ -4,7 +4,8 @@
 
 [![GitHub New Issue](https://img.shields.io/badge/Submit%20New%20Request-228537ff)](https://github.com/DynamoDS/DynamoWishlist/issues/new/choose)
 
-![Image](resources/images/dynamo_logo_light.png)
+![Image](resources/images/dynamo_logo_light.png#gh-dark-mode-only)
+![Image](resources/images/dynamo_logo_dark.png#gh-light-mode-only)
 
 [Dynamo](https://github.com/DynamoDS/Dynamo) is a visual programming tool that aims to be accessible to both non-programmers and programmers alike. It gives users the ability to visually script behavior, define custom pieces of logic, and script using various textual programming languages.
 

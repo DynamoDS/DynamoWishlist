@@ -1,6 +1,6 @@
 name: Issues workflow
 # DynamoWishlist project https://github.com/orgs/DynamoDS/projects/3
-# Built-in workflow https://github.com/orgs/DynamoDS/projects/3/workflows/11388102
+# Built-in workflow https://github.com/orgs/DynamoDS/projects/3/workflows
 
 # The built-in workflow
 #   - adds any new issues to the project
