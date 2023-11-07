@@ -1,0 +1,32 @@
+DesignScript:
+  - designscript
+Documentation:
+  - (documentation|docs)
+Dynamo Player:
+  - player
+Engine:
+  - engine
+Extensions:
+  - extension
+Geometry:
+  - geometry
+Graphics:
+  - graphics
+Nodes:
+  - node
+Python:
+  - python
+Package Manager:
+  - package
+Revit:
+  - revit
+Search:
+  - search
+Wishlist:
+  - (wish|wishlist|improvement|suggestion|enhancement|feature|request)
+UI:
+  - ui
+UX:
+  - ux
+VM:
+  - vm

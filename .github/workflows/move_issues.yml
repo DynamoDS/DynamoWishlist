@@ -1,4 +1,4 @@
-name: Issues workflow
+name: Move Issues
 # DynamoWishlist project https://github.com/orgs/DynamoDS/projects/3
 # Built-in workflow https://github.com/orgs/DynamoDS/projects/3/workflows
 
@@ -19,7 +19,7 @@ on:
 
 env:
   gh_token: ${{ secrets.DYNAMO_ISSUES_TOKEN }}
-  gh_organization: DynamoDS
+  gh_organization: ${{ github.repository_owner }}
   project_id: 3
 
 jobs:

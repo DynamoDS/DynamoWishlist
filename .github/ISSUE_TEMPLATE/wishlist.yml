@@ -1,6 +1,6 @@
 name: Dynamo Wishlist
 description: File an improvement request
-title: ':feat: <title>'
+title: '<title>'
 labels: [needs triage]
 projects: [DynamoDS/3]
 assignees:
